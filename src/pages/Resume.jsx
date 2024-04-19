@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
-
 import Particle from '../components/Particle'
 import pdf from "../assets/Aryan.pdf"
 

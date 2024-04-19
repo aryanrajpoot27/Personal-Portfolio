@@ -5,7 +5,7 @@ import Particle from "../components/Particle";
 import drumkit from "../assets/projects/drumkit.png";
 import stackoverflow from "../assets/projects/stackoverflow.jpg";
 import speech from "../assets/projects/speech.png";
-import vartalap from "../assets/projects/Vartalap.png";
+import driwake from "../assets/projects/driwake.png";
 import residencia from "../assets/projects/Residencia.png";
 import ASocial from "../assets/projects/ASocial.png"
 
@@ -23,12 +23,11 @@ const Projects = () => {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={vartalap}
+              imgPath={driwake}
               isBlog={false}
-              title="Vartalap"
-              description="Vartalap is a comprehensive chat application that leverages Socket.io for seamless real-time communication and ensures the security of user information by storing it in an encrypted format within a MongoDB database."
-              ghLink="https://github.com/Avanishsri31/Vartalap-Client"
-              demoLink="https://vartalap31.netlify.app/"
+              title="Driwake"
+              description="Driver Drowsiness Alert System: Using an IR sensor, relay module, GSM SIM900-A, Arduino Uno, gear motor, step-down converter, and glasses with IR sensor, this project detects driver eye closure. When the driver's eyelids close, a 2-second timer starts, and an alarm alerts the driver. The wheel's speed is reduced via the relay module, and after 3 beeps, the vehicle stops using the brakes. Alerts are sent to the driver's contacts , enhancing road safety."
+              ghLink="https://github.com/aryanrajpoot27/Driwake-Team-Bit-Busters-45.git"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -80,10 +79,6 @@ const Projects = () => {
               demoLink="https://avanishsri31.github.io/Drum-Kit-Project.github.io/"
             />
           </Col>
-
-          
-
-          
         </Row>
       </Container>
     </Container>
