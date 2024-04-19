@@ -8,11 +8,11 @@ import {
 } from "react-icons/di";
 import {
   SiCss3,
-  SiSass,
   SiSolidity,
   SiRedux,
   SiMongodb,
-  SiHtml5
+  SiHtml5,
+  SiTailwindcss
 } from "react-icons/si";
 
 const Techstack = () => {
@@ -37,13 +37,13 @@ const Techstack = () => {
         <SiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSass />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiSolidity />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiCss3 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
