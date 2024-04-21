@@ -24,7 +24,7 @@ const About = () => {
                  and I'm from <span className="yellow"> Etah, UttarPradesh, India.</span>
                 <br />
                 <br />
-                I am currently a 2th-year undergraduate in the Information Technology Concentration at
+                I am currently a 2nd-year undergraduate in the Information Technology Concentration at
                 <br /> KIET Group of Institutions , Ghaziabad.
                 <br />
                 <br />
@@ -34,7 +34,7 @@ const About = () => {
                   <br />
                   <br />I am proficient in
                     <b className="yellow"> C++ </b>
-                    as well as have knowledge in programming languages such as C, C++ , Javascript
+                    as well as have knowledge in programming languages such as C, Python , Javascript
                   <b className="yellow"> and Solidity.</b>
                   <br />
                   <br />
