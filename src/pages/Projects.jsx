@@ -27,7 +27,7 @@ const Projects = () => {
               ghLink="https://github.com/aryanrajpoot27/Driwake-Team-Bit-Busters-45.git"
             />
           </Col>
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={news}
               isBlog={false}
@@ -40,12 +40,12 @@ const Projects = () => {
             <ProjectCard
               imgPath={weather}
               isBlog={false}
-              title="Asocial"
+              title="Weather Applica"
               description="A modern weather website which uses weather API and image API for changing the background image of the website."
               ghLink="https://github.com/aryanrajpoot27/Weather-Website.git"
 
             />
-          </Col>
+          </Col> */}
  
 
         </Row>
