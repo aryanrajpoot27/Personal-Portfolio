@@ -35,7 +35,7 @@ const Home = () => {
                 <Type />
               </div>
             </Col>
-
+{/* 
             <Col md={5} style={{ paddingBottom: 20 }}>
   
                <div class="circular-slider">
@@ -60,7 +60,7 @@ const Home = () => {
       </div>
     </div>
   </div>
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       </Container>

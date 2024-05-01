@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
-import news from "../assets/projects/news.png";
+// import news from "../assets/projects/news.png";
 import driwake from "../assets/projects/driwake.png";
-import weather from "../assets/projects/weather.png";
+// import weather from "../assets/projects/weather.png";
 
 const Projects = () => {
   return (
