@@ -4,7 +4,8 @@ import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
 // import news from "../assets/projects/news.png";
 import driwake from "../assets/projects/driwake.png";
-// import weather from "../assets/projects/weather.png";
+import sprinthacks from "../assets/projects/image.png";
+import chat from "../assets/projects/chat.png";
 
 const Projects = () => {
   return (
@@ -23,30 +24,28 @@ const Projects = () => {
               imgPath={driwake}
               isBlog={false}
               title="Driwake"
-              description="Driver Drowsiness Alert System: Using an IR sensor, relay module, GSM SIM900-A, Arduino Uno, gear motor, step-down converter, and glasses with IR sensor, this project detects driver eye closure. When the driver's eyelids close, a 2-second timer starts, and an alarm alerts the driver. The wheel's speed is reduced via the relay module, and after 3 beeps, the vehicle stops using the brakes. Alerts are sent to the driver's contacts , enhancing road safety."
+              description="IOT Based Driver Drowsiness Alert System"
               ghLink="https://github.com/aryanrajpoot27/Driwake-Team-Bit-Busters-45.git"
             />
           </Col>
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={news}
-              isBlog={false}
-              title="News Website"
-              description="A modern news website using news API"
-              ghLink="https://github.com/aryanrajpoot27/Weather-Website.git"
-            />
-          </Col>
           <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={weather}
-              isBlog={false}
-              title="Weather Applica"
-              description="A modern weather website which uses weather API and image API for changing the background image of the website."
-              ghLink="https://github.com/aryanrajpoot27/Weather-Website.git"
-
-            />
-          </Col> */}
- 
+  <ProjectCard
+    imgPath={sprinthacks} 
+    isBlog={false}
+    title="Sprinthacks 2.0 Website"
+    description="Official Website for the Sprinthacks 2.0 Hackathon, featuring event details, registration, and team management."
+    ghLink="https://github.com/aryanrajpoot27/sprinthacks_web_2.0.git" 
+  />
+</Col>
+          <Col md={4} className="project-card">
+  <ProjectCard
+    imgPath={chat} 
+    isBlog={false}
+    title="CampusConnect - Real-Time Chat Application"
+    description="Developed a full-stack real-time chat application using ReactJS, NodeJS, and Socket.IO. The app supports multi-user chat rooms, instant messaging, and persistent WebSocket connections with efficient message broadcasting and user authentication."
+    ghLink="https://github.com/aryanrajpoot27/CampusConnect.git" 
+  />
+</Col>
 
         </Row>
       </Container>

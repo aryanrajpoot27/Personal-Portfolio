@@ -3,14 +3,14 @@ import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
 import Particle from '../components/Particle'
-import pdf from "../assets/Aryan.pdf"
+import pdf from "../assets/AryanRajpoot.pdf"
 
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const resumeLink = `https://raw.githubusercontent.com/aryanrajpoot27/Personal-Portfolio/main/src/assets/Aryan.pdf`
+const resumeLink = `https://raw.githubusercontent.com/aryanrajpoot27/Personal-Portfolio/main/src/assets/AryanRajpoot.pdf`
 
 
 const Resume = () => {
